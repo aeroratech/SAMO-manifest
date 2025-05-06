@@ -13,7 +13,7 @@
   <project remote="aeroratech" name="c_library_v2" path="src/vendor/aeroratech/mavlink-router/modules/mavlink_c_library_v2" revision="052b8579f8aeb941f34cc9896af22cf1f38939b9" upstream="refs/heads/master"/> 
   <project remote="aeroratech" name="display-drivers" path="src/kernel/msm-5.4/techpack/display" revision="08cae77b0041b3f0d1f301bca52edde4c7f2880d" upstream="refs/heads/develop" groups="cyborg"/>
   <project remote="aeroratech" name="docker" path="docker" revision="829adebf0565722c47d70a69314261304d22e5bd" upstream="refs/heads/develop"/>
-  <project remote="aeroratech" name="libuvcextension" path="src/vendor/aeroratech/libuvcextension" revision="7835aa74194bfdd0782d7144385dc5a5ce649a1f" upstream="refs/heads/develop"/>
+  <project remote="aeroratech" name="libuvcextension" path="src/vendor/aeroratech/libuvcextension" revision="ee0a00b6d0274ed5fee38484c897baff0b80df35" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="mavlink-router" path="src/vendor/aeroratech/mavlink-router" revision="38f835af9771dca8437ada245eb0a7aeecb4e8a9" upstream="refs/heads/develop"/> 
   <project remote="aeroratech" name="msm-5.4" path="src/kernel/msm-5.4" revision="e89a5d7ba384f578b0db54b3f32284b925d7128f" upstream="refs/heads/develop" groups="cyborg"/>
   <project remote="aeroratech" name="meta-aeroratech-bsp" path="poky/meta-aeroratech-bsp" revision="4cfc8a8b418717252012f4f263a3d8986501febe" upstream="refs/heads/develop"/>
@@ -30,13 +30,13 @@
   </project>
   <project remote="aeroratech" name="uvc-gadget" path="src/vendor/aeroratech/uvc-gadget" revision="096fe722a83cd1c77e9f0934634d9d45687deb7f" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="weston" path="src/display/weston" revision="26515c761615a6ab17110c1ade2253338970877d" upstream="refs/heads/develop"/>
-  <project remote="aeroratech" name="qcom-cam" path="src/vendor/aeroratech/qcom-cam" revision="99018134b10f9614feccb3da610583875f6a7e6e" upstream="refs/heads/develop"/>
-  <project remote="aeroratech" name="MAVCam" path="src/vendor/aeroratech/mav-cam" revision="bf994c95dd1fdd7d20602a3aa2e5d3f0b7f7a93d" upstream="refs/heads/qcom"/>
+  <project remote="aeroratech" name="qcom-cam" path="src/vendor/aeroratech/qcom-cam" revision="52ce900077beffc52509aa529f809b82b7dbd1dc" upstream="refs/heads/develop"/>
+  <project remote="aeroratech" name="MAVCam" path="src/vendor/aeroratech/mav-cam" revision="dc6827b33f64fd22f3993d36837157af88341d17" upstream="refs/heads/qcom"/>
   <project remote="aeroratech" name="MAVSDK" path="src/vendor/aeroratech/MAVSDK" revision="d47884bbe2b6125388a797973a9134b5cba431bd" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="IVLive" path="src/vendor/aeroratech/IVLive" revision="c87fcbbea92da9f7c54e19df47b2411e547ed807" upstream="refs/heads/main"/>
-  <project remote="aeroratech" name="exif-writer" path="src/vendor/aeroratech/exif-writer" revision="8039dd30e49cb6e9303784b36dcfd0a7c3f28490" upstream="refs/heads/main"/>
-  <project remote="aeroratech" name="gimbal-update" path="src/vendor/aeroratech/gimbal-update" revision="a9d87f8df1e6be0645f6abeb30eb5b898a77a04a" upstream="refs/heads/main"/>
-  <project remote="aeroratech" name="timezone-writer" path="src/vendor/aeroratech/timezone-writer" revision="ccf092542161feab51c9942556d412582c7f987a" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="exif-writer" path="src/vendor/aeroratech/exif-writer" revision="7f987f7c32e710bc973b70725a438dca0ffe7963" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="gimbal-update" path="src/vendor/aeroratech/gimbal-update" revision="56af30ac51f0c956ef1d27626282cd038bc1c334" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="timezone-writer" path="src/vendor/aeroratech/timezone-writer" revision="74daddeb99190a5ced9016bcfbb94938cd3ca39c" upstream="refs/heads/main"/>
   <project remote="clo-le" name="abl/tianocore/edk2" path="src/bootable/bootloader/edk2" revision="863306cd5b02ce2835916a6176dcd695406abaaa" upstream="refs/heads/iot-uefi.lnx.3.0.r1-rel"/>
   <project remote="clo-le" name="aosphal-adaptation" path="src/aosphal-adaptation" revision="728c0b8d46220bb757eb0f74fe45a1841d2211dd" upstream="refs/heads/aosphal-le-adaptation.lnx.1.0.r5-rel"/>
   <project remote="clo-le" name="display/libgbm" path="src/display/libgbm" revision="27cfae98c6ab4a7004ab19fec0a29083f4ba26e8" upstream="refs/heads/display.lnx.7.8.r2-rel"/>
