@@ -13,10 +13,10 @@
   <project remote="aeroratech" name="c_library_v2" path="src/vendor/aeroratech/mavlink-router/modules/mavlink_c_library_v2" revision="052b8579f8aeb941f34cc9896af22cf1f38939b9" upstream="refs/heads/master"/> 
   <project remote="aeroratech" name="display-drivers" path="src/kernel/msm-5.4/techpack/display" revision="08cae77b0041b3f0d1f301bca52edde4c7f2880d" upstream="refs/heads/develop" groups="cyborg"/>
   <project remote="aeroratech" name="docker" path="docker" revision="829adebf0565722c47d70a69314261304d22e5bd" upstream="refs/heads/develop"/>
-  <project remote="aeroratech" name="libuvcextension" path="src/vendor/aeroratech/libuvcextension" revision="7c7b17ee4faf365d69c7a4a4473cfd8bf9c76efa" upstream="refs/heads/develop"/>
+  <project remote="aeroratech" name="libuvcextension" path="src/vendor/aeroratech/libuvcextension" revision="d4fb115478448daf2775129dd45f83f60b4b8280" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="mavlink-router" path="src/vendor/aeroratech/mavlink-router" revision="38f835af9771dca8437ada245eb0a7aeecb4e8a9" upstream="refs/heads/develop"/> 
   <project remote="aeroratech" name="msm-5.4" path="src/kernel/msm-5.4" revision="e89a5d7ba384f578b0db54b3f32284b925d7128f" upstream="refs/heads/develop" groups="cyborg"/>
-  <project remote="aeroratech" name="meta-aeroratech-bsp" path="poky/meta-aeroratech-bsp" revision="4cfc8a8b418717252012f4f263a3d8986501febe" upstream="refs/heads/develop"/>
+  <project remote="aeroratech" name="meta-aeroratech-bsp" path="poky/meta-aeroratech-bsp" revision="04f4b89712b6cbf218af7a20ffb393cf11e88edf" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="meta-aeroratech-display" path="poky/meta-aeroratech-display" revision="6d78f3a2eec42244a149a2619f2f47f56fca0ce8" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="meta-aeroratech-mm" path="poky/meta-aeroratech-mm" revision="edd19e82f5850be1ed2d747adb8966392c3164a6" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="meta-qti-audio" path="poky/meta-qti-audio" revision="e50f02a7317ee5e4b1b9c9fae30024f46b0045b7" upstream="refs/heads/develop"/>
@@ -30,9 +30,9 @@
   </project>
   <project remote="aeroratech" name="uvc-gadget" path="src/vendor/aeroratech/uvc-gadget" revision="096fe722a83cd1c77e9f0934634d9d45687deb7f" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="weston" path="src/display/weston" revision="1a77b7378b6b4e306cf43bf75e573d7e8502bf03" upstream="refs/heads/develop"/>
-  <project remote="aeroratech" name="qcom-cam" path="src/vendor/aeroratech/qcom-cam" revision="1daaff741a54b6db7d2912f49cc8789c56259537" upstream="refs/heads/develop"/>
-  <project remote="aeroratech" name="MAVCam" path="src/vendor/aeroratech/mav-cam" revision="f0fe75da056b9101715e1d6d7e55200a5704e521" upstream="refs/heads/qcom"/>
-  <project remote="aeroratech" name="MAVSDK" path="src/vendor/aeroratech/MAVSDK" revision="d47884bbe2b6125388a797973a9134b5cba431bd" upstream="refs/heads/develop"/>
+  <project remote="aeroratech" name="qcom-cam" path="src/vendor/aeroratech/qcom-cam" revision="684151ded1bcc6eab031b5f21fe640e303c79fb5" upstream="refs/heads/develop"/>
+  <project remote="aeroratech" name="MAVCam" path="src/vendor/aeroratech/mav-cam" revision="7f21b159d42fce4aef0baf0d077b01c31f3eb5f2" upstream="refs/heads/qcom"/>
+  <project remote="aeroratech" name="MAVSDK" path="src/vendor/aeroratech/MAVSDK" revision="bb7665467a0a46121fdbe92d62db6a3646d4bda5" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="IVLive" path="src/vendor/aeroratech/IVLive" revision="c87fcbbea92da9f7c54e19df47b2411e547ed807" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="exif-writer" path="src/vendor/aeroratech/exif-writer" revision="fb3a0332063c9e3d688d2c22f086daf8277ab216" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="gimbal-update" path="src/vendor/aeroratech/gimbal-update" revision="56af30ac51f0c956ef1d27626282cd038bc1c334" upstream="refs/heads/main"/>
