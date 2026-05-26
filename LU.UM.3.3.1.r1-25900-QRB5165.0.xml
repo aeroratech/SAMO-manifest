@@ -41,7 +41,7 @@
   <project remote="aeroratech" name="aerora-tools" path="src/vendor/aeroratech/aerora-tools" revision="796501cab1b4b86810673d7ca0d45c28556690b3" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="qcom-proprietary-sectools" path="src/vendor/qcom/proprietary/sectools" revision="ce87be7ffa04dc14001bc116a32cf1e59c3e8b28" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="ir-cam" path="src/vendor/aeroratech/ir-cam" revision="8a4e41dfacd63bb339c223f4c952347ae5659474" upstream="refs/heads/main"/>
-  <project remote="aeroratech" name="render-bridge" path="src/vendor/aeroratech/render-bridge" revision="b6c314a92131106eecdcb9c281f3a5b0de7a33bd" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="render-bridge" path="src/vendor/aeroratech/render-bridge" revision="8ee760c1fd49ed9059ca9b1e6fe9c737c430895d" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="geer-usbsdk" path="src/vendor/aeroratech/geer-usbsdk" revision="2f89fbe926e4aa44b5088498cc9c13c70822f5cd" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="chi-cdk" path="src/vendor/qcom/proprietary/chi-cdk" revision="d890b1919e97d6f733bdc15a5b0277fd9460db84" upstream="refs/heads/develop"/>
   <project remote="aeroratech" name="storage-manager" path="src/vendor/aeroratech/storage-manager" revision="d45580ee1ac34670fa27f890c3c4859201bfa502" upstream="refs/heads/main"/>
