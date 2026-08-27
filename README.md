@@ -1,38 +1,35 @@
-# About me
+# SAMO Camera Manifest
 
-Contains repo manifest for HLOS (High Level Operating System).
+This repository contains the `repo` manifest for the SAMO camera  project.
 
-# Install
+## Download the Source Code
 
-```
-#Debian/Ubuntu
-$ sudo apt install repo
+1. Create the SAMO workspace:
 
-# Gentoo
-$ sudo emerge dev-vcs/repo
-```
+   ```bash
+   mkdir SAMO
+   ```
 
-Or install manually
+2. Extract the **proprietary** components into the workspace:
 
-```
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-$ chmod +x ~/bin/repo
-$ export PATH=$HOME/bin:$PATH
-```
+   ```bash
+   tar -xJf proprietary.tar.xz -C ./SAMO/
+   ```
 
-# Download codes
+3. Enter the workspace, initialize, and synchronize the source tree:
 
-```
-$ mkdir HLOS
-$ cd HLOS
-$ repo init -u https://github.com/aeroratech/manifest.git -b release -m LU.UM.3.3.1.r1-25900-QRB5165.0.xml --repo-url=https://gerrit-googlesource.proxy.ustclug.org/git-repo
-$ repo sync -j $(nproc)
-```
+   ```bash
+   cd SAMO
+   repo init -u https://github.com/aeroratech/SAMO-manifest.git -b main -m SAMO.xml
+   repo sync -j "$(nproc)"
+   ```
 
-# Next steps
+## Build Instructions
 
-Apply patches, download non-HLOS components: XBL, cDSP/aDSP, CHI-CDK, CamX and so on.
+### Build Environment Requirements
 
-# Build instructions
+- Operating system: Ubuntu 22.04
+- Memory: at least 32 GB RAM
+- Storage: at least 200 GB of available disk space
 
 TODO
